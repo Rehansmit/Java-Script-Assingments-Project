@@ -95,7 +95,7 @@ document.write ("Cost of 5 movie tickets are = " +"  "+  ticket*5 + "  "+"Rupees
 // Question -5
 
 document.write ("Answer Q.5" + "<br>" +  "<br>"+"<br>")
-var tvalue = +prompt ("Enter the value which table you required?");
+var tvalue = +prompt ("Enter the value which table do you required?");
 
 document.write ("<b>"+"Tables of "  + tvalue+ "<br></br>")
 
@@ -147,4 +147,88 @@ document.write ("Add Shipping Charges cost .............. ="+" "+ "@ 100 "+"PKR 
 
 document.write ("Total Cost of Your order is ........... ="+" "+ tcost+ " "+"PKR " +"<br>"+"</b>" + "<hr>")
 
+// Question -8
+
+document.write ("Answer Q.8" + "<br>" + "<br>")
+document.write ("<b>"+"Mark Sheet" + "<br>" + "<br>")
+
+var tmarks = 980;
+var obmarks = 804;
+
+var percentage = obmarks/tmarks*100
+document.write ("Total Marks  "+" = "+ tmarks + " "+" " +"<br>"+"")
+document.write ("Marks obtained  "+" = "+ obmarks + " "+" " +"<br>")
+document.write ("Percentage  "+" = "+ percentage + " "+"% " +"<br>"+"</b>" + "<hr>")
+
+
+// Question -9
+
+document.write ("Answer Q.9" + "<br>" + "<br>")
+document.write ("<b>"+"Curency in PKR" + "<br>" + "<br>")
+
+var pakcurency = (10*104.0)+(25*28)
+
+document.write ("10 US$ and 25 Saudi Riyal is   "+" = "+ pakcurency + " "+"Paki Rupees " +"<br>"+"</b>" + "<hr>")
+
+
+
+// Question -10
+
+document.write ("Answer Q.10" + "<br>" + "<br>")
+document.write ("<b>"+" Arithmetic Calculation" + "<br>" + "<br>")
+
+var num4 = 20
+
+var totalarthmatic = (num4+5)*10/2
+
+document.write ("Total of arthmetic calculation is = " + totalarthmatic + " "+" " +"<br>"+"</b>" + "<hr>")
+
+
+// Question -11
+
+document.write ("Answer Q.11" + "<br>" + "<br>")
+document.write ("<b>"+" Age Calculator" + "<br>" + "<br>")
+
+var cyear = 2024
+var byear = 1981
+document.write (" Current Year " + cyear + "<br>" + "<br>")
+document.write (" Birth Year " + byear + "<br>" + "<br>")
+
+var yourage = cyear-byear
+
+document.write (" You are either" + yourage + " "+"or" + "NN" + "Years old" +"<br>"+"</b>" + "<hr>")
+
+
+// Question -12
+
+document.write ("Answer Q.12" + "<br>" + "<br>")
+document.write ("<b>"+" Calculate properties of a circle" + "<br>" + "<br>")
+
+var radious = 20
+
+var circumference = 2*3.142*radious
+var areaofcircle = 3.142*(radious*radious)
+
+document.write ("circumference of the circle base on radious is = " + circumference + " "+" " +"<br>")
+document.write ("Area of the circle base on radious is = " + areaofcircle + " "+" " +"<br>"+"</b>" + "<hr>")
+
+
+// Question -13
+
+document.write ("Answer Q.13" + "<br>" + "<br>")
+document.write ("<b>"+" The Lifetime Supply Calculator" + "<br>" + "<br>")
+
+var snack = "Choclate Chips"
+var age = 15
+var maxage = 65
+var dailyuse = 3
+
+var lifetimesupply = (maxage-age)*365*dailyuse
+
+document.write (" Your favrote snack is" +" "+snack + "<br>" + "<br>")
+document.write (" Your current age is" +" "+age + "<br>" + "<br>")
+document.write (" Your consuption of snack is" +" "+dailyuse + "<br>" + "<br>")
+document.write (" Your maximum age is" +" "+maxage + "<br>" + "<br>")
+
+document.write ("You will need" +" " + lifetimesupply + " " +"to last you until the ripe old age of" + " " + maxage + " " + "<br>"+"</b>" + "<hr>")
 

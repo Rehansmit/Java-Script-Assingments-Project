@@ -145,39 +145,69 @@
 // Answer-6
 
 
-var mrk_ob_sub1 =+prompt("Please enter your marks obtained in subject 1")
-var mrk_ob_sub2 = +prompt("Please enter your marks obtained in subject 2")
-var mrk_ob_sub3 = +prompt("Please enter your marks obtained in subject 3")
+// var mrk_ob_sub1 =+prompt("Please enter your marks obtained in subject 1")
+// var mrk_ob_sub2 = +prompt("Please enter your marks obtained in subject 2")
+// var mrk_ob_sub3 = +prompt("Please enter your marks obtained in subject 3")
 
-var tmarks_obtained = mrk_ob_sub1+mrk_ob_sub2+mrk_ob_sub3
+// var tmarks_obtained = mrk_ob_sub1+mrk_ob_sub2+mrk_ob_sub3
 
-var totalMarks = 300
+// var totalMarks = 300
 
-var percentage = tmarks_obtained/totalMarks*100
+// var percentage = tmarks_obtained/totalMarks*100
 
-var grade;
+// var grade;
 
-var remarks;
+// var remarks;
 
-if(percentage <=59)
-{grade = "Failed", remarks = "Soory" }  
+// if(percentage <=59)
+// {grade = "Failed", remarks = "Soory" }  
 
-else if (percentage <=69)
-    {grade = "B", remarks = "You need to improve" } 
+// else if (percentage <=69)
+//     {grade = "B", remarks = "You need to improve" } 
 
-else if (percentage <=79)
-    {grade = "A", remarks = "Good" } 
+// else if (percentage <=79)
+//     {grade = "A", remarks = "Good" } 
 
-else if (percentage <= 95)
-    {grade = "A-One", remarks = "Excellent" } 
+// else if (percentage <= 95)
+//     {grade = "A-One", remarks = "Excellent" } 
 
-else if (percentage >= 96)
-    {grade = "Top", remarks = "Your are Topper" } 
+// else if (percentage >= 96)
+//     {grade = "Top", remarks = "Your are Topper" } 
 
-document.write (` <h1> Student Mark Sheet <br><br> 
-                       Total Marks =  ${totalMarks} <br><br>
-                       Total Obtained Marks =  ${tmarks_obtained} <br><br>
-                       Percentage =  ${percentage} % <br><br>
-                       Grade =  ${grade} <br><br>
-                       Remarks =  ${remarks} <br><br>
-    `)
+// document.write (` <h1> Student Mark Sheet <br><br> 
+//                        Total Marks =  ${totalMarks} <br><br>
+//                        Total Obtained Marks =  ${tmarks_obtained} <br><br>
+//                        Percentage =  ${percentage} % <br><br>
+//                        Grade =  ${grade} <br><br>
+//                        Remarks =  ${remarks} <br><br>
+//     `)
+
+
+
+// //..........Question- 7..........// //
+
+// Guess game: 
+//Store a secret number (ranging from 1 to 10) in a variable. prompt user to guess the secret number. 
+//a. If user guesses the same number, show “Bingo! Correct answer”. 
+//b. If the guessed number +1 is the secret number, show “Close enough to the correct answer”. 
+
+
+// var num1 = 7
+
+// var num2 = + prompt ("Guess and enter the hidden secret number")
+
+// if(num2 === num1){
+//     alert("Bingo! Correct answer")
+// }
+
+// else if (num2==num1+1){
+//     alert("Close enough to the correct answer")
+// }
+
+// else if (num2==num1-1){
+//     alert("Close enough to the correct answer")
+// }
+
+// else alert("Opp's! try again")
+
+

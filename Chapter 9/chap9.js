@@ -192,6 +192,7 @@
 //b. If the guessed number +1 is the secret number, show “Close enough to the correct answer”. 
 
 
+//Answer Start
 // var num1 = 7
 
 // var num2 = + prompt ("Guess and enter the hidden secret number")
@@ -211,3 +212,108 @@
 // else alert("Opp's! try again")
 
 
+
+
+// //..........Question- 8..........// //
+
+//Write a program to check whether the given number is divisible by 3. Show the message to the user if the number is divisible by 3. 
+
+
+//Answer started
+
+// var inputNumber = + prompt("Enter the number and check its divisible by 3 or not")
+
+// var result = inputNumber%3
+
+// if(result === 0){
+//     alert("Given number is divisible by 3")
+//     }
+
+//     else alert ("Opps! given number is not divisible by 3")
+
+
+
+// //..........Question- 9..........// //
+
+//Write a program that checks whether the given input is an even number or an odd number.
+
+
+
+//Answer started
+
+// var inputNumber1 = + prompt ("Enter the number and check its even or odd number")
+
+// // var result1 = inputNumber1/2
+
+// if(inputNumber1%2 == 0){
+// alert("Given number is Even number")
+//  }
+
+// else alert ("Given number is odd number")
+
+
+// //..........Question- 10..........// //
+//Write a program that takes temperature as input and shows a message based on following criteria 
+// T > 40 then “It is too hot outside.” 
+//b. T > 30 then “The Weather today is Normal.” 
+//c. T > 20 then “Today’s Weather is cool.” 
+//d. T > 10 then “OMG! Today’s weather is so Cool.” 
+
+//Answer started:
+
+// var input_temp =  prompt ("Enter today temprature of the city")
+
+// if(input_temp > 40)
+//     {alert ("It is too hot outside" )}
+
+//     else if(input_temp > 30)
+//         {alert ("The Weather today is Normal" )
+//             } 
+
+//             else if(input_temp > 20)
+//                 {alert ("Today’s Weather is cool" )
+//                     } 
+//                     else if(input_temp > 10)
+//                         {alert ("OMG! Today’s weather is so Cool" )
+//                             } 
+// else alert("stay home its snowfalling")              
+
+
+// //..........Question- 11..........// //
+//Write a program to create a calculator for +,-,*, / & % using if statements. Take the following input: 
+//a. First number 
+//b. Second number 
+//c. Operation (+, -, *, /, %) 
+//Compute & show the calculated result to user.
+
+
+//Answer Started:
+
+var firstDigit = + prompt ("Enter first value in digits")
+var secndDigit = + prompt ("Enter seceond value in digits")
+
+var Operation = prompt ("enter operation which result you required")
+
+
+var result;
+var Remarks;
+
+
+if(Operation ==="+")
+{result= firstDigit+secndDigit , Remarks= "Result of Addition"}
+
+else if (Operation === "-")
+    {result= firstDigit-secndDigit , Remarks= "Result of Subtraction"}
+
+else if (Operation === "*")
+    {result= firstDigit*secndDigit , Remarks= "Result of Multipication"}
+
+else if (Operation === "/")
+    {result= firstDigit/secndDigit , Remarks= "Result of Division"}
+
+else if (Operation === "%")
+    {result= firstDigit % secndDigit , Remarks= "Result of Modulus"}
+
+else alert("enter correct number and operation")
+
+alert (Remarks + " " + result)

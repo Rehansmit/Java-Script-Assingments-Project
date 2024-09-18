@@ -290,10 +290,8 @@
 //Answer Started:
 
 var firstDigit = + prompt ("Enter first value in digits")
-var secndDigit = + prompt ("Enter seceond value in digits")
-
 var Operation = prompt ("enter operation which result you required")
-
+var secndDigit = + prompt ("Enter seceond value in digits")
 
 var result;
 var Remarks;

@@ -1,29 +1,29 @@
 
 //Question 1
 
-var num1 = 10
-++num1
-// num1= 11
+// var num1 = 10
+// ++num1
+// // num1= 11
 
-num1++
-// num1= 12
+// num1++
+// // num1= 12
 
---num1
-//num1=11
+// --num1
+// //num1=11
 
-num1--
-// num1= 10
-alert("The result of defined variable num1 is =" + " "+ num1)
+// num1--
+// // num1= 10
+// alert("The result of defined variable num1 is =" + " "+ num1)
 
 
 
 
 //Question 2
 
-var a = 2
-var b = 1
+//var a = 2
+//var b = 1
 
-var result = --a - --b + ++b + b--;
+//var result = --a - --b + ++b + b--;
 //             1 -   0 +   1 + 1    
 //--a=1
 //--a- -- + ++b= 2
@@ -35,32 +35,34 @@ var result = --a - --b + ++b + b--;
 
 //result = 3
 
-alert( "Final result of the equation is = "  + "  " + result)
+//alert( "Final result of the equation is = "  + "  " + result)
 
 
 // //Question-3
 
-var name = prompt ("Please enter your full name")
+// var name = prompt ("Please enter your full name")
 
-alert ("Welcome Mr." + name + " "+ "in Javascript world" )
+// alert ("Welcome Mr." + name + " "+ "in Javascript world" )
+
+
 
 // //Question-4 & 5
 
-document.write ("Answer Q.$ & 5" + "<br>" +  "<br>"+"<br>")
-var tvalue = +prompt ("Enter the value which table do you required?");
+// document.write ("Answer Q.$ & 5" + "<br>" +  "<br>"+"<br>")
+// var tvalue = +prompt ("Enter the value which table do you required?");
 
-document.write ("<b>"+"Tables of "  + tvalue+ "<br></br>")
+// document.write ("<b>"+"Tables of "  + tvalue+ "<br></br>")
 
-document.write (tvalue + "  "+" X "+ "1" + "  "+"=" +"  "+ tvalue*1 + "<br>" +"<br>")
-document.write (tvalue + "  "+" X "+ "2" + "  "+"=" +"  "+ tvalue*2 + "<br>" +"<br>")
-document.write (tvalue + "  "+" X "+ "3" + "  "+"=" +"  "+ tvalue*3 + "<br>" +"<br>")
-document.write (tvalue + "  "+" X "+ "4" + "  "+"=" +"  "+ tvalue*4 + "<br>" +"<br>")
-document.write (tvalue + "  "+" X "+ "5" + "  "+"=" +"  "+ tvalue*5 + "<br>" +"<br>")
-document.write (tvalue + "  "+" X "+ "6" + "  "+"=" +"  "+ tvalue*6 + "<br>" +"<br>")
-document.write (tvalue + "  "+" X "+ "7" + "  "+"=" +"  "+ tvalue*7 + "<br>" +"<br>")
-document.write (tvalue + "  "+" X "+ "8" + "  "+"=" +"  "+ tvalue*8 + "<br>" +"<br>")
-document.write (tvalue + "  "+" X "+ "9" + "  "+"=" +"  "+ tvalue*9 + "<br>" +"<br>")
-document.write (tvalue + "  "+" X "+ "10" + "  "+"=" +"  "+ tvalue*10 + "<br>" +"</b>"+"<hr>")
+// document.write (tvalue + "  "+" X "+ "1" + "  "+"=" +"  "+ tvalue*1 + "<br>" +"<br>")
+// document.write (tvalue + "  "+" X "+ "2" + "  "+"=" +"  "+ tvalue*2 + "<br>" +"<br>")
+// document.write (tvalue + "  "+" X "+ "3" + "  "+"=" +"  "+ tvalue*3 + "<br>" +"<br>")
+// document.write (tvalue + "  "+" X "+ "4" + "  "+"=" +"  "+ tvalue*4 + "<br>" +"<br>")
+// document.write (tvalue + "  "+" X "+ "5" + "  "+"=" +"  "+ tvalue*5 + "<br>" +"<br>")
+// document.write (tvalue + "  "+" X "+ "6" + "  "+"=" +"  "+ tvalue*6 + "<br>" +"<br>")
+// document.write (tvalue + "  "+" X "+ "7" + "  "+"=" +"  "+ tvalue*7 + "<br>" +"<br>")
+// document.write (tvalue + "  "+" X "+ "8" + "  "+"=" +"  "+ tvalue*8 + "<br>" +"<br>")
+// document.write (tvalue + "  "+" X "+ "9" + "  "+"=" +"  "+ tvalue*9 + "<br>" +"<br>")
+// document.write (tvalue + "  "+" X "+ "10" + "  "+"=" +"  "+ tvalue*10 + "<br>" +"</b>"+"<hr>")
 
 
 // //Question- 6

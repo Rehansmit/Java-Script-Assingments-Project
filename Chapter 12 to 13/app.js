@@ -71,17 +71,58 @@
 
 
 
-var userPassword = "admin@mail.com"
+// var userPassword = "admin@mail.com"
 
-var inputPassword = prompt("Please enter your password")
+// var inputPassword = prompt("Please enter your password")
 
-if(inputPassword == ""){
-    alert("Please enter your password")
+// if(inputPassword == ""){
+//     alert("Please enter your password")
+// }
+
+// else if (inputPassword != userPassword){alert("You enter wrong password")}
+// else if (inputPassword === userPassword){alert("You entered correct password")}
+// else{alert(" Please Enter Password")}
+
+
+
+//***************************Question No-6 **************************//
+//This if/else statement does not work. Try to fix it:
+
+
+// var greeting;
+// var hour = 13;
+
+// if (hour < 18) {
+// greeting = "Good day";}
+// else{ greeting = "Good evening";}
+
+
+
+//***************************Question No-7 **************************//
+//Write a program that takes time as input from user in 24 hours clock format like: 1900 = 7pm. Implement the 
+//following case using if, else & else if statements
+
+
+var inputTime = prompt("Please enter time in 24 hours clock")
+
+if (inputTime == "0000"){alert ("its 12pm. \nGood Morning")
 }
 
-else if (inputPassword != userPassword){alert("You enter wrong password")}
-else if (inputPassword === userPassword){alert("You entered correct password")}
-else{alert(" Please Enter Password")}
+else if (inputTime == 1300){alert(" its 1pm. \nGood afternoon ")}
+else if (inputTime == 1400){alert(" its 2pm. \nGood afternoon")}
+else if (inputTime == 1500){alert(" its 3pm. \nGood afternoon")}
+else if (inputTime == 1600){alert(" its 4pm. \nGood afternoon")}
+else if (inputTime == 1700){alert(" its 5pm. \nGood afternoon")}
+else if (inputTime == 1800){alert(" its 6pm. \nGood evening")}
+else if (inputTime == 1900){alert(" its 7pm. \nGood evening")}
+else if (inputTime == 2000){alert(" its 8pm. \nGood evening")}
+else if (inputTime == 2100){alert(" its 9pm.\nGood evening")}
+else if (inputTime == 2200){alert(" its 10pm. \nGood night")}
+else if (inputTime == 2300){alert(" its 11pm. \nGood night")}
+else if (inputTime == 2400){alert(" its 12am. \nGood night")}
+else {alert ("enter correct time")}
+
+
 
 
 

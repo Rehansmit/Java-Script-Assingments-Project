@@ -4,22 +4,22 @@
 //anumber, uppercase letter or lower case letter. (Hint: ASCII codes:- A=65, Z=90, a=97, z=122).
 
 
-// var userinput = prompt("Please enter Text or Number ")
+var userinput = prompt("Please enter Text or Number ")
 
-// var result = userinput.charCodeAt()
+var result = userinput.charCodeAt()
 
 
-// if(result <= 57)
-//     {
-// alert("Your input text are number ")
-//  }
-// else if (result <= 90){
-// alert("Your input text are Upercase") }
+if(result <= 57)
+    {
+alert("Your input text are number ")
+ }
+else if (result <= 90){
+alert("Your input text are Upercase") }
 
-// else if (result <= 122 ){
-// alert("Your input text are lowercase") }
+else if (result <= 122 ){
+alert("Your input text are lowercase") }
 
-// else{alert("enter correct value")}
+else{alert("enter correct value")}
 
 
 //**********************Question No-2 **************************//

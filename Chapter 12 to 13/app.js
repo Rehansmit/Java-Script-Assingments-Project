@@ -105,9 +105,7 @@
 
 var inputTime = prompt("Please enter time in 24 hours clock")
 
-if (inputTime == "0000"){alert ("its 12pm. \nGood Morning")
-}
-
+if (inputTime == "0000"){alert ("its 12pm. \nGood Morning")}
 else if (inputTime == 1300){alert(" its 1pm. \nGood afternoon ")}
 else if (inputTime == 1400){alert(" its 2pm. \nGood afternoon")}
 else if (inputTime == 1500){alert(" its 3pm. \nGood afternoon")}

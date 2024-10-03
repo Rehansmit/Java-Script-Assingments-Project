@@ -204,16 +204,16 @@
 // were stored. (FIFO-First In First Out) 
 
 
-var devices = ['Keyboard', 'mouse', 'printer', 'monitor']
+// var devices = ['Keyboard', 'mouse', 'printer', 'monitor']
 
-devices.shift()
-document.write(`First Out = ${devices.retern()}`)
-devices.shift()
-document.write(`2nd Out = ${devices}`)
-devices.shift()
-document.write(`3rd Out = ${devices}`)
-devices.shift()
-document.write(`4th Out = ${devices}`)
+// devices.shift()
+// document.write(`First Out = ${devices.retern()}`)
+// devices.shift()
+// document.write(`2nd Out = ${devices}`)
+// devices.shift()
+// document.write(`3rd Out = ${devices}`)
+// devices.shift()
+// document.write(`4th Out = ${devices}`)
 
 
 

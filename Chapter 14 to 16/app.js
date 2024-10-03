@@ -3,14 +3,14 @@
 // Declare an empty array using JS literal notation to store student names in future. .
 
 
-// var studentName;
+// var studentName =[]
 
 
 
 //**********************Question No-2 **************************//
 //Declare an empty array using JS object notation to store student names in future. 
 
-// var student_Name = [];
+// var student_Name = new array
 
 
 //***************************Question No-3 **************************//
@@ -206,24 +206,29 @@
 
 // var devices = ['Keyboard', 'mouse', 'printer', 'monitor']
 
-// devices.shift()
-// document.write(`First Out = ${devices.retern()}`)
-// devices.shift()
-// document.write(`2nd Out = ${devices}`)
-// devices.shift()
-// document.write(`3rd Out = ${devices}`)
-// devices.shift()
-// document.write(`4th Out = ${devices}`)
+// var fifo = devices.shift()
+// document.write(`First Out = ${fifo} <br>`)
+// fifo = devices.shift()
+// document.write(`2nd Out = ${fifo}<br>`)
+// fifo = devices.shift()
+// document.write(`3rd Out = ${fifo}<br>`)
+// fifo = devices.shift()
+// document.write(`4th Out = ${fifo}<br>`)
 
 
 
 
 //***************************Question No-14 **************************//
 
-
-
-
-
+// var someValues=["Fan", "Room", "Window" , "Door"]
+// var lifo = someValues.pop()
+// document.write(`Last in first out ${lifo} <br>`)
+// lifo = someValues.pop()
+// document.write(`Last in first out ${lifo} <br>`)
+// lifo = someValues.pop()
+// document.write(`Last in first out ${lifo} <br>`)
+// lifo = someValues.pop()
+// document.write(`Last in first out ${lifo} <br>`)
 
 
 
@@ -236,20 +241,18 @@
 // browser using document.write() method: 
 
 
-//     var mobile_manufacture = ['Apple', 'Samsung', 'Motorola', 'Nokia', 'Sony' , 'Haier'];
-// // document.write(`<h1> Select your mobile complany</h1> <br>
+   var mobile_manufacture = ['Apple', 'Samsung', 'Motorola', 'Nokia', 'Sony' , 'Haier'];
+ document.write(`<h1> Select your mobile complany</h1> <br>
     
-//        <select>
-//        <option>${mobile_manufacture[0]}
-//        <option>${mobile_manufacture[1]}
-//        <option>${mobile_manufacture[2]}
-//        <option>${mobile_manufacture[3]}
-//        <option>${mobile_manufacture[4]}
-//        <option>${mobile_manufacture[5]}
-//        </select>
+        <select select style= "width:200px; border:2px solid ;color:purple; padding:5px 2px;border-radius:8px">
+        <option>${mobile_manufacture[0]}
+        <option>${mobile_manufacture[1]}
+        <option>${mobile_manufacture[2]}
+        <option>${mobile_manufacture[3]}
+       <option>${mobile_manufacture[4]}
+       <option>${mobile_manufacture[5]}
+        </select>
+     `)
 
-//        `)
 
-
-}
 

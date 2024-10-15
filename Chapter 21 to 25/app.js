@@ -197,4 +197,38 @@
 
 
 // //************************Question No-15 **************************//
+// Write a program to take password as an input from 
+// user. The password must qualify these requirements:
+// a. It should contain alphabets and numbers
+// b. It should not start with a number
+// c. It must at least 6 characters long
+// If the password does not meet above requirements,
+// prompt the user to enter a valid password.
+// For character codes of a-z, A-Z & 0-9, refer to ASCII
+// table at the end of this document.
 
+
+var userPasward = prompt("Please enter your valid passward")
+var status1 = true
+var status2 = true
+var status3 = true
+// var statusfasle = "please enter valid passward"
+// var statustrue = "you enter a valid password"
+
+for(i = 0; i< userPasward.length; i++)
+
+//  a...   
+{if(  userPasward[i].charCodeAt >=48 && userPasward[i].charCodeAt <=57
+    && userPasward[i].charCodeAt >=65 && userPasward[i].charCodeAt <=90
+    && userPasward[i].charCodeAt >=97 && userPasward[i].charCodeAt <=122) {status1 =true} }
+
+if(userPasward.charAt().charCodeAt >= 48 && userPasward[0].charCodeAt <= 57)
+       {status2 =false, alert("You enter integer value in start")}else{}
+    
+if(userPasward.length >= 6) {status3 =false, alert("enter paswrd lenght is exceding")} 
+
+else{status2 = true, status3 = true}
+
+    
+if(status1,status2,status3){alert("You enter a valid passward")}
+else{alert("please enter a valid passward")}

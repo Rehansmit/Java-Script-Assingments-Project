@@ -128,3 +128,73 @@
 // alert(updateTital)
 
 
+// //************************Question No-12 **************************//
+// Write a program that converts the variable num to 
+// string. var num = 35.36 ;
+// Remove the dot to display “3536” display in your browser
+
+
+// var num = 35.36 ;
+// var strng = num.toString().replace("." , "")
+// alert("result of string" + strng)
+
+
+
+// //************************Question No-13 **************************//
+// Write a program to take user input and store username 
+// in a variable. If the username contains any special symbol 
+// among [@ . , !], prompt the user to enter a valid username. 
+// For character codes of [@ .
+
+
+// var userNmae = prompt('Enter your user name here')
+// var value = false;
+
+// for(i = 0; i < userNmae.length; i++)
+// if (userNmae[i]==="." || userNmae[i]==="@" ||userNmae[i]==="," || userNmae[i] === "!"){value = true}
+// if (value){alert("enter a valid user name" )}
+// else{alert("user name is ok")}
+
+
+// 2nd logic......
+
+// var userNmae = prompt('Enter your user name here')
+// var value = false;
+
+// for(i = 0; i < userNmae.length; i++)
+// if (userNmae[i].charCodeAt=== 33||userNmae[i].charCodeAt=== 44||userNmae[i].charCodeAt=== 46||userNmae[i].charCodeAt=== 64){value = true}
+
+// if (value){alert("enter a valid user name" )}
+
+// else{alert("user name is ok")}
+
+
+
+
+// //************************Question No-14 **************************//
+// You have an array
+// A = [cake”, “apple pie”, “cookie”, “chips”, “patties”]
+// Write a program to enable “search by user input” in an 
+// array. After searching, prompt the user whether theuse given 
+// item is found in the list or not.
+// Note: Perform case insensitive search. Whether the user 
+// enters cookie, Cookie, COOKIE or coOkIE, program 
+// should inform about its availability
+
+// var bakeryItems = ["cake", "apple pie" , "cookie" , "chips" , "patties"]
+
+
+// var inputItem = prompt("Welcome ABC bakery please enter item which you want")
+// var serchItem = inputItem.toLowerCase()
+// var indexNumber;
+// var itemsStatus = false
+
+// for(i = 0; i< bakeryItems.length; i++)
+// {if (serchItem===bakeryItems[i]){itemsStatus= true, indexNumber = i} }
+
+// if(itemsStatus){alert(serchItem +  " "+ "is avalable at index No." + indexNumber)}
+// else{alert("We are Sorry"+ " " +serchItem + " " +"is not avalable at store")}
+
+
+// //************************Question No-15 **************************//
+

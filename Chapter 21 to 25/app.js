@@ -208,27 +208,40 @@
 // table at the end of this document.
 
 
-var userPasward = prompt("Please enter your valid passward")
-var status1 = true
-var status2 = true
-var status3 = true
-// var statusfasle = "please enter valid passward"
-// var statustrue = "you enter a valid password"
+// var userPasward = prompt("Please enter your valid passward")
 
-for(i = 0; i< userPasward.length; i++)
 
-//  a...   
-{if(  userPasward[i].charCodeAt >=48 && userPasward[i].charCodeAt <=57
-    && userPasward[i].charCodeAt >=65 && userPasward[i].charCodeAt <=90
-    && userPasward[i].charCodeAt >=97 && userPasward[i].charCodeAt <=122) {status1 =true} }
+// var pwLength = userPasward.length
+// var frstvalue =userPasward.charAt(0)
+       
 
-if(userPasward.charAt().charCodeAt >= 48 && userPasward[0].charCodeAt <= 57)
-       {status2 =false, alert("You enter integer value in start")}else{}
+// if (frstvalue.charCodeAt()>=48 && frstvalue.charCodeAt()<=57 ){alert("Passward can not began with number" )} 
+// else if (pwLength>= 7) {alert("Your passward length exceeding")}
+// else {alert ("wao! you enter valid passward")}
     
-if(userPasward.length >= 6) {status3 =false, alert("enter paswrd lenght is exceding")} 
 
-else{status2 = true, status3 = true}
+// // //************************Question No-16 **************************//
+// Write a program to convert the following string to an 
+// array using string split method.
+// var university = “University of Karachi”;
+// Display the elements of array in your browser.
 
-    
-if(status1,status2,status3){alert("You enter a valid passward")}
-else{alert("please enter a valid passward")}
+// var university = "University of Karachi"
+
+// for(i=0; i<university.length; i++)
+// {document.write(`${university[i]}<br>`)}
+
+
+
+// // //************************Question No-17 **************************//
+// Write a program to display the last character of a user 
+// input
+
+var inputletter = prompt("Please input a world")
+
+var length = inputletter.length-1
+
+var lastletter = inputletter.charAt(length) 
+
+
+alert("Last letter of your input word is" +" " +lastletter)

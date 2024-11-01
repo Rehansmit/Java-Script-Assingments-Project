@@ -69,11 +69,21 @@
 // to represent the Date object. 
 
 
-var current_dt = new Date()
-console.log(current_dt)
+// var current_dt = new Date()
+// console.log(current_dt)
 
-var millisec =new Date().getTime()
-console.log(millisec)
+// var millisec =new Date().getTime()
+// console.log(millisec)
 
-var minutes_td = millisec /(1000*60*60)
-console.log(minutes_td)
+// var minutes_td = millisec /(1000*60*60)
+// console.log(minutes_td)
+
+
+//************************Question No-7 **************************//
+// Write a program that tests whether it's before noon and 
+// alert “Its AM” else “its PM”. 
+
+
+var current_time = new Date().getHours()
+console.log(current_time)
+

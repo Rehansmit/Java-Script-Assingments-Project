@@ -84,6 +84,42 @@
 // alert “Its AM” else “its PM”. 
 
 
-var current_time = new Date().getHours()
-console.log(current_time)
+// var current_time = new Date().getHours()
+// console.log(current_time)
 
+// if(current_time<=11.59){
+//     alert("its AM")
+// }
+// else{alert('its PM')}
+
+
+//************************Question No-8 **************************//
+// Write a program that creates a Date object for the last day 
+// of the last month of 2020 and assigns it to variable named 
+// laterDate. 
+
+
+// var laterDate =  new Date("December 31, 2020 ");
+// console.log(laterDate)
+
+
+//************************Question No-9 **************************//
+// Create a date object of the starting date of this Ramadan 
+// and alert the number of days past since 1st Ramadan? 
+// Note: 1st Ramadan was on June 18, 2015 
+
+
+
+// var last_Ramdan_Date =  new Date("March 12, 2023 ").getTime()
+
+// var today_date = new Date().getTime()
+
+
+// var laps_diff = today_date-last_Ramdan_Date
+// console.log(laps_diff)
+
+// var laps_days = Math.floor(laps_diff/(1000*60*60*24))
+// console.log(laps_days)
+
+
+//************************Question No-10 **************************//

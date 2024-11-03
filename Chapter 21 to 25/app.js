@@ -237,11 +237,34 @@
 // Write a program to display the last character of a user 
 // input
 
-var inputletter = prompt("Please input a world")
+// var inputletter = prompt("Please input a world")
 
-var length = inputletter.length-1
+// var length = inputletter.length-1
 
-var lastletter = inputletter.charAt(length) 
+// var lastletter = inputletter.charAt(length) 
 
 
-alert("Last letter of your input word is" +" " +lastletter)
+// alert("Last letter of your input word is" +" " +lastletter)
+
+
+
+// // //************************Question No-18 **************************//
+// You have a string “The quick brown fox jumps over the
+// lazy dog”. Write a program to count number of
+// occurrences of word “the” in given string.
+
+
+
+var newString = "The quick brown fox the jumps over the lazy dog"
+
+var s_string = newString.toLocaleLowerCase()
+
+var counter = 0
+
+var sp_string =  s_string.split( " ")
+
+for (var i = 0; i<sp_string.length; i++)
+{if (sp_string[i]=== 'the'){counter++}}
+
+alert(counter)
+
